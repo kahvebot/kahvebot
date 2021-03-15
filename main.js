@@ -6,9 +6,10 @@ bot.on("messageCreate", (msg) => {
     if(msg.content === "!ping") {
         bot.createMessage(msg.channel.id, "Pong!");
     }
-    if(msg.content == "sa") {
+    if(msg.content.toLowerCase() == "sa") {
     bot.createMessage(msg.channel.id, "Aleyküm selam!");
     }
+    /*
     if(msg.content == "SA") {
     bot.createMessage(msg.channel.id, "Aleyküm selam!");
     }
@@ -17,7 +18,7 @@ bot.on("messageCreate", (msg) => {
     }
     if(msg.content == "Sa") {
     bot.createMessage(msg.channel.id, "Aleyküm selam!");
-    }
+    }*/
     if(msg.content == "k!sik") {
     bot.createMessage(msg.channel.id, "https://www.youtube.com/watch?v=gpY1RW2yxLw&ab_channel=mustafakahraman");
     }
